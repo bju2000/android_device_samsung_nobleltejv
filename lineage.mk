@@ -1,6 +1,6 @@
 # Inherit device configuration
 $(call inherit-product, device/samsung/nobleltejv/nobleltejv.mk)
-$(call inherit-product, device/samsung/noblelte-common/noblelte.mk)
+$(call inherit-product, device/samsung/noblelte-common/noblelte-common.mk)
 
 # Inherit from the 64 bit configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)

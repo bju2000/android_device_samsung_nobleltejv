@@ -9,6 +9,9 @@ TARGET_KERNEL_CONFIG := lineageos_nobleltejv_defconfig
 # RIL
 BOARD_MODEM_TYPE := ss333
 
+# Device Assertation
+TARGET_OTA_ASSERT_DEVICE := nobleltejv,noblelte
+
 # /proc/partitions * 2 (why?) * BLOCK_SIZE (512) = size in bytes
 BOARD_BOOTIMAGE_PARTITION_SIZE := 29360128
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
